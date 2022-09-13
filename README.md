@@ -88,7 +88,7 @@ the relevant data for retrieval and usage by the user:
 
 We later have our variables declared, as well as our constructor which ensures correct formation and entry of data:
 ```java
- private final String planetName;
+    private final String planetName;
     private final double mass;
     private double distanceFromSun;
     private double relativeWeightIndex;
@@ -125,5 +125,5 @@ the relative weight of the user on their selected planet:
 ```java
     protected double getWeightOnPlanet(double weight) {
         return weight * relativeWeightIndex;
-        }
+    }
 ```
