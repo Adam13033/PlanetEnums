@@ -28,7 +28,12 @@ The application works by initially prompting you to input a planet, as a user yo
 When inputting one of th above values, you'll be prompted to enter your weight in pounds(lb). Once entered, your input value will
 be multiplied by the relative weight index for that planet returning how much you'd weigh on that planet.
 
-When all values have been entered and submitted, all relevant data associated to enum will be returned informing of
+When all values have been entered and submitted, all relevant data associated to enum will be returned informing of:
+- Your chosen planet's name
+- Chosen planet's mass 
+- Distance from the sun
+- Weight on your chosen planet 
+
 
 ## What it looks like
 
